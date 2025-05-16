@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: product-catalog
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

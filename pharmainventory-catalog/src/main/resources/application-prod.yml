@@ -1,0 +1,9 @@
+spring:
+  profiles: prod
+  datasource:
+    url: ${JDBC_URL}
+    username: ${JDBC_USER}
+    password: ${JDBC_PASS}
+  jpa:
+    hibernate:
+      ddl-auto: validate

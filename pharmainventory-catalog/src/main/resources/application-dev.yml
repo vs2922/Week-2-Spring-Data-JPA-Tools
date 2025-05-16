@@ -1,0 +1,6 @@
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/catalog
+    username: catalog_user
+    password: secret
